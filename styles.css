@@ -1,0 +1,22 @@
+@import url(utils/utils.css);
+@import url(utils/margins.css);
+@import url(utils/paddings.css);
+
+@import url(components/navigation.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+:root {
+  --light-gray: rgb(238, 238, 238);
+  --medium-gray: rgb(96, 96, 96);
+  --dark-grey: rgb(13, 13, 13);
+  --light-mask: rgba(0, 119, 255, 0.05);
+}
