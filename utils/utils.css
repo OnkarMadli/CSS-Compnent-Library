@@ -1,18 +1,18 @@
 /* headings */
 :root {
-  --value-1: 0.25rem;
-  --value-2: 0.375rem;
-  --value-3: 0.5rem;
-  --value-4: 0.625rem;
-  --value-5: 0.75rem;
-  --value-6: 0.875rem;
-  --value-7: 1rem;
-  --value-8: 1.25rem;
-  --value-9: 1.5rem;
-  --value-10: 1.75rem;
-  --value-11: 2rem;
-  --value-12: 2.25rem;
-  --value-13: 2.5rem;
+  --value-1: 0.25rem; /* 4px */
+  --value-2: 0.375rem; /* 6px */
+  --value-3: 0.5rem; /* 8px */
+  --value-4: 0.625rem; /* 10px */
+  --value-5: 0.75rem; /* 12px */
+  --value-6: 0.875rem; /* 14px */
+  --value-7: 1rem; /* 16px */
+  --value-8: 1.25rem; /* 20px */
+  --value-9: 1.5rem; /* 24px */
+  --value-10: 1.75rem; /* 28px */
+  --value-11: 2rem; /* 32px */
+  --value-12: 2.25rem; /* 36px */
+  --value-13: 2.5rem; /* 40px */
 }
 
 h1 {
@@ -47,24 +47,56 @@ h6 {
 
 /* text sizes */
 
-.text-xs {
-  font-size: 0.4rem;
+.text-1 {
+  font-size: var(--value-1);
 }
 
-.text-s {
-  font-size: 0.8rem;
+.text-2 {
+  font-size: var(--value-2);
 }
 
-.text-base {
-  font-size: 1.6rem;
+.text-3 {
+  font-size: var(--value-3);
 }
 
-.text-l {
-  font-size: 2.4rem;
+.text-4 {
+  font-size: var(--value-4);
 }
 
-.text-xl {
-  font-size: 3.2rem;
+.text-5 {
+  font-size: var(--value-5);
+}
+
+.text-6 {
+  font-size: var(--value-6);
+}
+
+.text-7 {
+  font-size: var(--value-7);
+}
+
+.text-8 {
+  font-size: var(--value-8);
+}
+
+.text-9 {
+  font-size: var(--value-9);
+}
+
+.text-10 {
+  font-size: var(--value-10);
+}
+
+.text-11 {
+  font-size: var(--value-11);
+}
+
+.text-12 {
+  font-size: var(--value-12);
+}
+
+.text-13 {
+  font-size: var(--value-13);
 }
 
 /* text-alignments */
@@ -79,9 +111,4 @@ h6 {
 
 .text-right {
   text-align: right;
-}
-
-/* default colors */
-.gray {
-  color: #9a9a9a;
 }
