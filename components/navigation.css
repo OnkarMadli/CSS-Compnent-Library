@@ -6,7 +6,7 @@
   color: white;
   z-index: 1;
   width: 100%;
-
+  min-width: 300px;
   position: sticky;
   top: 0;
   border-bottom: 1px solid var(--light-mask);
@@ -22,7 +22,7 @@
   height: 25px;
   fill: var(--medium-gray);
   cursor: pointer;
-  display: none;
+  display: block;
 }
 
 .menu-icon:hover {
@@ -36,7 +36,7 @@
 
 .brand-title {
   font-size: var(--value-9);
-  width: 100%;
+  /* width: 100%; */
 }
 
 .navbar-links ul {
@@ -69,13 +69,4 @@
 
 .navbar.light .navbar-links li a:hover {
   background: rgb(238, 238, 238);
-}
-
-@media only screen and (max-width: 1000px) {
-  .brand-title {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
-  }
 }
